@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 238, 238);
+}
+
+.center-container {
+    text-align: center;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 150px;
+}
+
+#container {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#container button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: inherit;
+    color: inherit;
+    transition: background-color 0.3s;
+}
+
+#container button:hover {
+    background-color: #E6CCFF;
+}
